@@ -85,6 +85,7 @@ section {
   border-image-slice: 1;
 }
 .achievements {
+  background-image: url(images/header-bg.png);
   height: 1100px;
 }
 .achievements div {
@@ -117,15 +118,19 @@ section {
 .certificates h4,
 p {
   padding-left: 10px;
+  letter-spacing: 1.2px;
 }
-
+.certificates p {
+  font-weight: 600;
+}
 .contacts {
   height: auto;
 }
 footer {
-  border: 5px solid black;
-}
-footer p {
+  margin-bottom: 10px;
+  border-top: 5px solid;
+  border-image: linear-gradient(45deg, rgb(64, 228, 15), rgb(5, 154, 241));
+  border-image-slice: 2;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
 }
