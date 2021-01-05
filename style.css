@@ -1,121 +1,124 @@
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
 
-h2{
-    font-size: 40px;
+h2 {
+  font-size: 40px;
 }
-p{
-    color:dimgray;
-}
-
-.orange-highlight{
-    color: orange;
+p {
+  color: dimgray;
 }
 
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+.orange-highlight {
+  color: orange;
 }
 
-.half-width img{
-    width: 100%;
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
 }
 
-.top-banner{
-    background-repeat: no-repeat;
-    background-image: url("images/top-banner.png");
+.half-width img {
+  width: 100%;
 }
 
-section{
-    height: 500px;
-    padding-bottom: 20px;
+.top-banner {
+  background-repeat: no-repeat;
+  background-image: url("images/top-banner.png");
 }
 
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,rgb(122, 255, 255), rgb(71, 114, 255));
-    padding: 10px 20px;
-    color: white;
-    border-radius: 5px;
-
+section {
+  height: 500px;
+  padding-bottom: 20px;
 }
 
-.link-button:hover{
-    background-image: linear-gradient(45deg, orange,red);
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(
+    45deg,
+    rgb(122, 255, 255),
+    rgb(71, 114, 255)
+  );
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
 }
 
-.dream-area{
-    background-repeat: no-repeat;
-    background-image: url(images/dream-bg.png);
-    background-position: right;
-}
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 80%;
-    background-color: white;
-    
+.link-button:hover {
+  background-image: linear-gradient(45deg, orange, red);
 }
 
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+.dream-area {
+  background-repeat: no-repeat;
+  background-image: url(images/dream-bg.png);
+  background-position: right;
+}
+.single-experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
 }
 
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,lightSalmon, tomato);
-    border-image-slice: 1;
+.experience-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,blue,cyan);
-    border-image-slice: 1;
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
 }
 
-.certificates{
-    margin:5px 5px 5px 10px;
-    display: inline-block;
-   
-    box-shadow: 5px 3px 20px gray; ;
-    width: 32%;
-    height: auto;
-    border-top: 5px solid;
-    border-image: linear-gradient(90deg,rgba(247, 6, 66, 0.37),rgb(238, 138, 8));
-    border-image-slice:1 ;
-    border-radius: 7px;
-    
-    
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+.achievements div {
+  float: left;
+}
+.certificates {
+  margin: 5px 5px 5px 10px;
+  box-shadow: 5px 3px 20px gray;
+  width: 32%;
+  height: auto;
+  border-top: 5px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(247, 6, 66, 0.37),
+    rgb(238, 138, 8)
+  );
+  border-image-slice: 1;
+  border-radius: 7px;
 }
 
-.certificates img:hover{
-    transform: scale(1.2);
-    
+.certificates img:hover {
+  transform: scale(1.2);
 }
 
-.certificates img{
-    width: 100%;
-    transition: 0.2s ease;
+.certificates img {
+  width: 100%;
+  transition: 0.2s ease;
 }
-.certificates h4,p{
-    padding-left: 10px;
+.certificates h4,
+p {
+  padding-left: 10px;
 }
 
-footer{
-   height: auto;
-   border: 5px solid black; 
+footer {
+  border: 5px solid black;
 }
-footer p{
-    text-align: center;
-    font-size: 12px;
+footer p {
+  text-align: center;
+  font-size: 12px;
 }
