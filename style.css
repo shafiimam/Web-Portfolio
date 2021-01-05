@@ -84,11 +84,15 @@ section {
   border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
 }
+.achievements {
+  height: 1100px;
+}
 .achievements div {
   float: left;
 }
+
 .certificates {
-  margin: 5px 5px 5px 10px;
+  margin: 5px 5px 20px 10px;
   box-shadow: 5px 3px 20px gray;
   width: 32%;
   height: auto;
@@ -115,6 +119,9 @@ p {
   padding-left: 10px;
 }
 
+.contacts {
+  height: auto;
+}
 footer {
   border: 5px solid black;
 }
