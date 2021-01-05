@@ -83,6 +83,38 @@ section{
     border-image-slice: 1;
 }
 
+.certificates{
+    margin:5px 5px 5px 10px;
+    display: inline-block;
+   
+    box-shadow: 5px 3px 20px gray; ;
+    width: 32%;
+    height: auto;
+    border-top: 5px solid;
+    border-image: linear-gradient(90deg,rgba(247, 6, 66, 0.37),rgb(238, 138, 8));
+    border-image-slice:1 ;
+    border-radius: 7px;
+    
+    
+}
+
+.certificates img:hover{
+    transform: scale(1.2);
+    
+}
+
+.certificates img{
+    width: 100%;
+    transition: 0.2s ease;
+}
+.certificates h4,p{
+    padding-left: 10px;
+}
+
+footer{
+   height: auto;
+   border: 5px solid black; 
+}
 footer p{
     text-align: center;
     font-size: 12px;
